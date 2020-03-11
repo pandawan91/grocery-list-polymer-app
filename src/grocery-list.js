@@ -92,7 +92,7 @@ class GroceryList extends PolymerElement {
   }
 
   _removeItem(event){
-    this.splice('groceryList', itemName.model.index, 1);
+    this.splice('groceryList', event.model.index, 1);
   }
 }
 

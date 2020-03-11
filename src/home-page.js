@@ -26,7 +26,7 @@ class HomePage extends PolymerElement {
         <h1>Home</h1>
         <p>Welcome to the example page.</p>
         <p>This page is a test application in Polymer 3. The code is available on github.</p>
-        <a href="https://github.com/pandawan91">Click here</a>
+        <a href="https://github.com/pandawan91/grocery-list-polymer-app">Click here</a>
       </div>
     `;
   }
