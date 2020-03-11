@@ -1,6 +1,6 @@
 # Polymer App Toolbox - Grocery List Test App
 
-This App is evaluation purposes. You can add and delete items to the List.
+This App is for evaluation purposes. You can add and delete items to the List.
 Build with the Polymer 3 Starter Kit.
 
 
