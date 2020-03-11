@@ -26,9 +26,8 @@ class GroceryList extends PolymerElement {
         }
 
         .input-container {
-          padding: 10%;
-          margin: 10%;
-          border-style: solid;
+          padding: 10px;
+          margin: 10px;
         }
 
         paper-card {
@@ -50,16 +49,16 @@ class GroceryList extends PolymerElement {
             value="{{quantityInput}}"></paper-input>
           <paper-button noink on-click="_pushToList">Add</paper-button>
         </div>        
-      
+      </div>
         <template is="dom-repeat" items="[[groceryList]]">
-          <paper-card heading="[[item.name]]">
+          <paper-card class="card" heading="[[item.name]]">
           <div class="card-content">Quantity: [[item.quantity]]</div>
           <div class="card-actions">
             <paper-button noink on-click="_removeItem">Delete</paper-button>
           </div>
           </paper-card>        
         </template>
-      </div>
+     
     `;
   }
 
