@@ -3,6 +3,8 @@
 This App is for evaluation purposes. You can add and delete items to the List.
 Build with the Polymer 3 Starter Kit.
 
+check it out at https://grocery-list-polymer-app.web.app/
+
 
 [![Build Status](https://travis-ci.org/Polymer/polymer-starter-kit.svg?branch=master)](https://travis-ci.org/Polymer/polymer-starter-kit)
 
